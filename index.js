@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "https://guftugu-livechatapp.herokuapp.com/",
+        origin:"https://guftugu-basic.netlify.app/",
         methods: ["GET", "POST"],
     }
 });
