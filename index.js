@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:3000" || "melodious-gingersnap-1ff981.netlify.app",
+        origin: "https://guftugu-livechatapp.herokuapp.com/",
         methods: ["GET", "POST"],
     }
 });
